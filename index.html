@@ -516,6 +516,8 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--ink);font
 
     <button class="tnbtn tnbtn-s1sem" onclick="showTopSec('s1sem',this)"><span class="tn-icon">📙</span>Sección 4 — 1° Semestre</button>
 
+    <button class="tnbtn tnbtn-svac" onclick="showTopSec('svac',this)"><span class="tn-icon">❄️</span>Sección 5 — Vacacional</button>
+
   </div>
 
 </div>
@@ -1552,6 +1554,101 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--ink);font
         <div class="card"><div class="cl">Préstamos por categoría</div><div class="ct">1° Semestre</div><div class="cw" style="height:260px"><canvas id="c-1s-cat-p"></canvas></div></div>
         <div class="card"><div class="cl">Prom. libros/usuario por categoría</div><div class="ct">1° Semestre</div><div class="cw" style="height:260px"><canvas id="c-1s-cat-avg"></canvas></div></div>
       </div>
+      <div class="card gf">
+        <div class="cl">Usuarios únicos por categoría</div>
+        <div class="ct">1° Semestre — 9 agosto al 4 diciembre 2025</div>
+        <div style="max-height:480px;overflow-y:auto">
+        <table class="tt">
+          <thead><tr><th>Categoría</th><th style="text-align:right">Cantidad</th><th style="text-align:right">%</th></tr></thead>
+          <tbody>
+            <tr><td>Alumno de Licenciatura</td><td style="text-align:right;font-family:'DM Mono',monospace">420</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">78.95%</td></tr>
+            <tr><td>Docentes</td><td style="text-align:right;font-family:'DM Mono',monospace">54</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">10.15%</td></tr>
+            <tr><td>Personal de Apoyo</td><td style="text-align:right;font-family:'DM Mono',monospace">31</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">5.83%</td></tr>
+            <tr><td>Alumnos Preparatoria</td><td style="text-align:right;font-family:'DM Mono',monospace">12</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">2.26%</td></tr>
+            <tr><td>Alumnos carreras técnicas y tecnologías</td><td style="text-align:right;font-family:'DM Mono',monospace">6</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">1.13%</td></tr>
+            <tr><td>Alumnos Posgrado</td><td style="text-align:right;font-family:'DM Mono',monospace">5</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.94%</td></tr>
+            <tr><td>Usuarios temporales</td><td style="text-align:right;font-family:'DM Mono',monospace">4</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.75%</td></tr>
+            <tr><td><strong>Total general</strong></td><td style="text-align:right;font-family:'DM Mono',monospace"><strong>532</strong></td><td style="text-align:right;font-weight:700">100.00%</td></tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+      <div class="card gf">
+        <div class="cl">Usuarios únicos por facultad — completo</div>
+        <div class="ct">1° Semestre — 9 agosto al 4 diciembre 2025</div>
+        <div style="max-height:480px;overflow-y:auto">
+        <table class="tt">
+          <thead><tr><th>Facultad</th><th style="text-align:right">Cantidad</th><th style="text-align:right">%</th></tr></thead>
+          <tbody>
+            <tr><td>Ciencias de la Salud</td><td style="text-align:right;font-family:'DM Mono',monospace">202</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">37.97%</td></tr>
+            <tr><td>Artes y Comunicación</td><td style="text-align:right;font-family:'DM Mono',monospace">57</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">10.71%</td></tr>
+            <tr><td>Teología</td><td style="text-align:right;font-family:'DM Mono',monospace">43</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">8.08%</td></tr>
+            <tr><td>Ciencias Jurídicas</td><td style="text-align:right;font-family:'DM Mono',monospace">41</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">7.71%</td></tr>
+            <tr><td>Ciencias Estomatológicas</td><td style="text-align:right;font-family:'DM Mono',monospace">41</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">7.71%</td></tr>
+            <tr><td>Ciencias de Educación</td><td style="text-align:right;font-family:'DM Mono',monospace">40</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">7.52%</td></tr>
+            <tr><td>Psicología</td><td style="text-align:right;font-family:'DM Mono',monospace">34</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">6.39%</td></tr>
+            <tr><td>Personal de Apoyo</td><td style="text-align:right;font-family:'DM Mono',monospace">31</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">5.83%</td></tr>
+            <tr><td>Ingeniería y Tecnología</td><td style="text-align:right;font-family:'DM Mono',monospace">21</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">3.95%</td></tr>
+            <tr><td>Preparatoria</td><td style="text-align:right;font-family:'DM Mono',monospace">13</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">2.44%</td></tr>
+            <tr><td>Escuela de Música</td><td style="text-align:right;font-family:'DM Mono',monospace">5</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.94%</td></tr>
+            <tr><td>Preparación para el servicio</td><td style="text-align:right;font-family:'DM Mono',monospace">2</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.38%</td></tr>
+            <tr><td>Curso de español para extranjeros</td><td style="text-align:right;font-family:'DM Mono',monospace">2</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.38%</td></tr>
+            <tr><td><strong>Total general</strong></td><td style="text-align:right;font-family:'DM Mono',monospace"><strong>532</strong></td><td style="text-align:right;font-weight:700">100.00%</td></tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+      <div class="card gf">
+        <div class="cl">Usuarios únicos por escuela — completo (38 escuelas)</div>
+        <div class="ct">1° Semestre — 9 agosto al 4 diciembre 2025</div>
+        <div style="max-height:480px;overflow-y:auto">
+        <table class="tt">
+          <thead><tr><th>Escuela</th><th style="text-align:right">Cantidad</th><th style="text-align:right">%</th></tr></thead>
+          <tbody>
+            <tr><td>Médico Cirujano</td><td style="text-align:right;font-family:'DM Mono',monospace">125</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">23.54%</td></tr>
+            <tr><td>Teología</td><td style="text-align:right;font-family:'DM Mono',monospace">43</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">8.10%</td></tr>
+            <tr><td>Cirujano Dentista</td><td style="text-align:right;font-family:'DM Mono',monospace">35</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">6.59%</td></tr>
+            <tr><td>Personal de Apoyo</td><td style="text-align:right;font-family:'DM Mono',monospace">31</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">5.83%</td></tr>
+            <tr><td>Terapia Física y Rehabilitación</td><td style="text-align:right;font-family:'DM Mono',monospace">28</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">5.27%</td></tr>
+            <tr><td>Enfermería</td><td style="text-align:right;font-family:'DM Mono',monospace">26</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">4.90%</td></tr>
+            <tr><td>Psicología Clínica</td><td style="text-align:right;font-family:'DM Mono',monospace">25</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">4.71%</td></tr>
+            <tr><td>Arquitectura</td><td style="text-align:right;font-family:'DM Mono',monospace">24</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">4.52%</td></tr>
+            <tr><td>Derecho</td><td style="text-align:right;font-family:'DM Mono',monospace">15</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">2.82%</td></tr>
+            <tr><td>Preparatoria</td><td style="text-align:right;font-family:'DM Mono',monospace">13</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">2.45%</td></tr>
+            <tr><td>Contaduría Pública</td><td style="text-align:right;font-family:'DM Mono',monospace">13</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">2.45%</td></tr>
+            <tr><td>Comunicación y Medios</td><td style="text-align:right;font-family:'DM Mono',monospace">13</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">2.45%</td></tr>
+            <tr><td>Químico Clínico Biólogo</td><td style="text-align:right;font-family:'DM Mono',monospace">13</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">2.45%</td></tr>
+            <tr><td>Ing. Sistemas Computacionales</td><td style="text-align:right;font-family:'DM Mono',monospace">13</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">2.45%</td></tr>
+            <tr><td>Administración y negocios internacionales</td><td style="text-align:right;font-family:'DM Mono',monospace">12</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">2.26%</td></tr>
+            <tr><td>Educación Primaria</td><td style="text-align:right;font-family:'DM Mono',monospace">10</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">1.88%</td></tr>
+            <tr><td>Artes Visuales</td><td style="text-align:right;font-family:'DM Mono',monospace">10</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">1.88%</td></tr>
+            <tr><td>Diseño de Comunicación Visual</td><td style="text-align:right;font-family:'DM Mono',monospace">9</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">1.69%</td></tr>
+            <tr><td>Enseñanza de las Matemáticas</td><td style="text-align:right;font-family:'DM Mono',monospace">9</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">1.69%</td></tr>
+            <tr><td>Nutrición y Dietética</td><td style="text-align:right;font-family:'DM Mono',monospace">8</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">1.51%</td></tr>
+            <tr><td>Educación Preescolar</td><td style="text-align:right;font-family:'DM Mono',monospace">6</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">1.13%</td></tr>
+            <tr><td>Tecnología dental</td><td style="text-align:right;font-family:'DM Mono',monospace">6</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">1.13%</td></tr>
+            <tr><td>Ing. Industrial y de sistemas</td><td style="text-align:right;font-family:'DM Mono',monospace">5</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.94%</td></tr>
+            <tr><td>Psicología Educativa</td><td style="text-align:right;font-family:'DM Mono',monospace">5</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.94%</td></tr>
+            <tr><td>Música</td><td style="text-align:right;font-family:'DM Mono',monospace">5</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.94%</td></tr>
+            <tr><td>Enseñanza de las ciencias naturales</td><td style="text-align:right;font-family:'DM Mono',monospace">4</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.75%</td></tr>
+            <tr><td>Mtria. en Relaciones familiares</td><td style="text-align:right;font-family:'DM Mono',monospace">4</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.75%</td></tr>
+            <tr><td>Enseñanza de las Ciencias Sociales</td><td style="text-align:right;font-family:'DM Mono',monospace">4</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.75%</td></tr>
+            <tr><td>Enseñanza del Inglés</td><td style="text-align:right;font-family:'DM Mono',monospace">3</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.56%</td></tr>
+            <tr><td>Curso de español para extranjeros</td><td style="text-align:right;font-family:'DM Mono',monospace">2</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.38%</td></tr>
+            <tr><td>Enseñanza del lenguaje y la comunicación</td><td style="text-align:right;font-family:'DM Mono',monospace">2</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.38%</td></tr>
+            <tr><td>Mtria. en Salud Pública</td><td style="text-align:right;font-family:'DM Mono',monospace">2</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.38%</td></tr>
+            <tr><td>Preparación para el servicio</td><td style="text-align:right;font-family:'DM Mono',monospace">2</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.38%</td></tr>
+            <tr><td>Ing. Electrónica y Telecomunicaciones</td><td style="text-align:right;font-family:'DM Mono',monospace">2</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.38%</td></tr>
+            <tr><td>Doc. en Gestión Educativa</td><td style="text-align:right;font-family:'DM Mono',monospace">1</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.19%</td></tr>
+            <tr><td>Ing. en Tecnología de la Información y Comunicación</td><td style="text-align:right;font-family:'DM Mono',monospace">1</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.19%</td></tr>
+            <tr><td>Doc. en Administración de negocios</td><td style="text-align:right;font-family:'DM Mono',monospace">1</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.19%</td></tr>
+            <tr><td>Mtria. en Gestión curricular</td><td style="text-align:right;font-family:'DM Mono',monospace">1</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.19%</td></tr>
+            <tr><td>Mtria. en Dirección de Comunicación</td><td style="text-align:right;font-family:'DM Mono',monospace">1</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.19%</td></tr>
+            <tr><td><strong>Total general</strong></td><td style="text-align:right;font-family:'DM Mono',monospace"><strong>532</strong></td><td style="text-align:right;font-weight:700">100.00%</td></tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
     </section>
 
     <section id="s1sem-coleccion" class="sec">
@@ -1560,12 +1657,130 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--ink);font
         <div class="card"><div class="cl">Top 10 temas — préstamos</div><div class="ct">1° Semestre</div><div class="cw" style="height:380px"><canvas id="c-1s-temas-p"></canvas></div></div>
         <div class="card"><div class="cl">Top 10 temas — renovaciones</div><div class="ct">1° Semestre</div><div class="cw" style="height:380px"><canvas id="c-1s-temas-r"></canvas></div></div>
       </div>
+      <div class="g2">
+        <div class="card gf">
+        <div class="cl">Temas con más préstamos</div>
+        <div class="ct">1° Semestre — 9 agosto al 4 diciembre 2025 · Top 10, no exhaustivo</div>
+        <div style="max-height:480px;overflow-y:auto">
+        <table class="tt">
+          <thead><tr><th>Tema</th><th style="text-align:right">Cantidad</th><th style="text-align:right">%</th></tr></thead>
+          <tbody>
+            <tr><td>Religión</td><td style="text-align:right;font-family:'DM Mono',monospace">296</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">15.33%</td></tr>
+            <tr><td>Anatomía humana</td><td style="text-align:right;font-family:'DM Mono',monospace">147</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">7.61%</td></tr>
+            <tr><td>Administración y contabilidad</td><td style="text-align:right;font-family:'DM Mono',monospace">118</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">6.11%</td></tr>
+            <tr><td>Psicología</td><td style="text-align:right;font-family:'DM Mono',monospace">101</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">5.23%</td></tr>
+            <tr><td>Enfermería</td><td style="text-align:right;font-family:'DM Mono',monospace">100</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">5.18%</td></tr>
+            <tr><td>Derecho</td><td style="text-align:right;font-family:'DM Mono',monospace">87</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">4.51%</td></tr>
+            <tr><td>Arquitectura</td><td style="text-align:right;font-family:'DM Mono',monospace">87</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">4.51%</td></tr>
+            <tr><td>Embriología</td><td style="text-align:right;font-family:'DM Mono',monospace">76</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">3.94%</td></tr>
+            <tr><td>Histología</td><td style="text-align:right;font-family:'DM Mono',monospace">71</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">3.68%</td></tr>
+            <tr><td>Fisiología</td><td style="text-align:right;font-family:'DM Mono',monospace">55</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">2.85%</td></tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+        <div class="card gf">
+        <div class="cl">Títulos con más préstamos y renovaciones</div>
+        <div class="ct">1° Semestre — 9 agosto al 4 diciembre 2025</div>
+        <table class="tt">
+          <thead><tr><th>Título</th><th style="text-align:right">Préstamos + Renovaciones</th></tr></thead>
+          <tbody>
+            <tr><td>Embriología humana y biología del desarrollo</td><td style="text-align:right;font-family:'DM Mono',monospace;font-weight:700">121</td></tr>
+            <tr><td>Moore anatomía con orientación clínica</td><td style="text-align:right;font-family:'DM Mono',monospace;font-weight:700">76</td></tr>
+            <tr><td>Histología</td><td style="text-align:right;font-family:'DM Mono',monospace;font-weight:700">53</td></tr>
+            <tr><td>Netter. Atlas de anatomía humana</td><td style="text-align:right;font-family:'DM Mono',monospace;font-weight:700">45</td></tr>
+            <tr><td>Microbiología y parasitología humana</td><td style="text-align:right;font-family:'DM Mono',monospace;font-weight:700">36</td></tr>
+            <tr><td>Clasificación de intervenciones de enfermería (NIC)</td><td style="text-align:right;font-family:'DM Mono',monospace;font-weight:700">32</td></tr>
+            <tr><td>Gray anatomía para estudiantes</td><td style="text-align:right;font-family:'DM Mono',monospace;font-weight:700">30</td></tr>
+            <tr><td>El secreto de las zonas azules</td><td style="text-align:right;font-family:'DM Mono',monospace;font-weight:700">29</td></tr>
+            <tr><td>Murray. Microbiología médica básica</td><td style="text-align:right;font-family:'DM Mono',monospace;font-weight:700">28</td></tr>
+            <tr><td>Histología básica</td><td style="text-align:right;font-family:'DM Mono',monospace;font-weight:700">28</td></tr>
+          </tbody>
+        </table>
+      </div>
+      </div>
     </section>
 
     <section id="s1sem-escuelas" class="sec">
-      <div class="sh"><h2>Escuelas — 1° Semestre</h2><span class="stag">Top 10 escuelas por préstamos</span></div>
+      <div class="sh"><h2>Escuelas — 1° Semestre</h2><span class="stag">Top 10 (gráfico) + listado completo (tabla)</span></div>
       <div class="card gf"><div class="cl">Top 10 escuelas — préstamos</div><div class="ct">1° Semestre (9 ago – 4 dic)</div><div class="cw" style="height:350px"><canvas id="c-1s-escuelas"></canvas></div></div>
       <div class="card gf"><div class="cl">Préstamos y renovaciones por facultad</div><div class="ct">1° Semestre</div><div class="leg"><span><span class="ld" style="background:var(--p3)"></span>Préstamos</span><span><span class="ld" style="background:var(--a4)"></span>Renovaciones</span></div><div class="cw" style="height:320px"><canvas id="c-1s-fac"></canvas></div></div>
+      <div class="card gf">
+        <div class="cl">Préstamos y renovaciones por facultad — completo</div>
+        <div class="ct">1° Semestre — 9 agosto al 4 diciembre 2025</div>
+        <div style="max-height:480px;overflow-y:auto">
+        <table class="tt">
+          <thead><tr><th>Facultad</th><th style="text-align:right">Cantidad</th><th style="text-align:right">%</th></tr></thead>
+          <tbody>
+            <tr><td>Ciencias de la Salud</td><td style="text-align:right;font-family:'DM Mono',monospace">1463</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">45.41%</td></tr>
+            <tr><td>Ciencias Jurídicas</td><td style="text-align:right;font-family:'DM Mono',monospace">332</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">10.30%</td></tr>
+            <tr><td>Artes y Comunicación</td><td style="text-align:right;font-family:'DM Mono',monospace">294</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">9.12%</td></tr>
+            <tr><td>Teología</td><td style="text-align:right;font-family:'DM Mono',monospace">229</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">7.11%</td></tr>
+            <tr><td>Ciencias Estomatológicas</td><td style="text-align:right;font-family:'DM Mono',monospace">212</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">6.58%</td></tr>
+            <tr><td>Personal de Apoyo</td><td style="text-align:right;font-family:'DM Mono',monospace">192</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">5.96%</td></tr>
+            <tr><td>Ciencias de Educación</td><td style="text-align:right;font-family:'DM Mono',monospace">189</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">5.87%</td></tr>
+            <tr><td>Psicología</td><td style="text-align:right;font-family:'DM Mono',monospace">107</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">3.32%</td></tr>
+            <tr><td>Ingeniería y Tecnología</td><td style="text-align:right;font-family:'DM Mono',monospace">89</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">2.76%</td></tr>
+            <tr><td>Preparatoria</td><td style="text-align:right;font-family:'DM Mono',monospace">68</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">2.11%</td></tr>
+            <tr><td>Usuarios temporales</td><td style="text-align:right;font-family:'DM Mono',monospace">27</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.84%</td></tr>
+            <tr><td>Escuela de Música</td><td style="text-align:right;font-family:'DM Mono',monospace">16</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.50%</td></tr>
+            <tr><td>Preparación para el servicio</td><td style="text-align:right;font-family:'DM Mono',monospace">4</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.12%</td></tr>
+            <tr><td><strong>Total general</strong></td><td style="text-align:right;font-family:'DM Mono',monospace"><strong>3222</strong></td><td style="text-align:right;font-weight:700">100.00%</td></tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+      <div class="card gf">
+        <div class="cl">Préstamos y renovaciones por escuela — completo (38 escuelas)</div>
+        <div class="ct">1° Semestre — 9 agosto al 4 diciembre 2025</div>
+        <div style="max-height:480px;overflow-y:auto">
+        <table class="tt">
+          <thead><tr><th>Escuela</th><th style="text-align:right">Cantidad</th><th style="text-align:right">%</th></tr></thead>
+          <tbody>
+            <tr><td>Médico Cirujano</td><td style="text-align:right;font-family:'DM Mono',monospace">916</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">28.43%</td></tr>
+            <tr><td>Teología</td><td style="text-align:right;font-family:'DM Mono',monospace">229</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">7.11%</td></tr>
+            <tr><td>Enfermería</td><td style="text-align:right;font-family:'DM Mono',monospace">224</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">6.95%</td></tr>
+            <tr><td>Terapia Física y Rehabilitación</td><td style="text-align:right;font-family:'DM Mono',monospace">203</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">6.30%</td></tr>
+            <tr><td>Cirujano Dentista</td><td style="text-align:right;font-family:'DM Mono',monospace">194</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">6.02%</td></tr>
+            <tr><td>Personal de Apoyo</td><td style="text-align:right;font-family:'DM Mono',monospace">192</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">5.96%</td></tr>
+            <tr><td>Derecho</td><td style="text-align:right;font-family:'DM Mono',monospace">182</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">5.65%</td></tr>
+            <tr><td>Arquitectura</td><td style="text-align:right;font-family:'DM Mono',monospace">124</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">3.85%</td></tr>
+            <tr><td>Administración y negocios internacionales</td><td style="text-align:right;font-family:'DM Mono',monospace">88</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">2.73%</td></tr>
+            <tr><td>Psicología Clínica</td><td style="text-align:right;font-family:'DM Mono',monospace">69</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">2.14%</td></tr>
+            <tr><td>Preparatoria</td><td style="text-align:right;font-family:'DM Mono',monospace">68</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">2.11%</td></tr>
+            <tr><td>Diseño de Comunicación Visual</td><td style="text-align:right;font-family:'DM Mono',monospace">65</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">2.02%</td></tr>
+            <tr><td>Ing. Sistemas Computacionales</td><td style="text-align:right;font-family:'DM Mono',monospace">64</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">1.99%</td></tr>
+            <tr><td>Artes Visuales</td><td style="text-align:right;font-family:'DM Mono',monospace">64</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">1.99%</td></tr>
+            <tr><td>Químico Clínico Biólogo</td><td style="text-align:right;font-family:'DM Mono',monospace">64</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">1.99%</td></tr>
+            <tr><td>Contaduría Pública</td><td style="text-align:right;font-family:'DM Mono',monospace">59</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">1.83%</td></tr>
+            <tr><td>Enseñanza de las Matemáticas</td><td style="text-align:right;font-family:'DM Mono',monospace">48</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">1.49%</td></tr>
+            <tr><td>Comunicación y Medios</td><td style="text-align:right;font-family:'DM Mono',monospace">37</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">1.15%</td></tr>
+            <tr><td>Enseñanza de las Ciencias Sociales</td><td style="text-align:right;font-family:'DM Mono',monospace">34</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">1.06%</td></tr>
+            <tr><td>Nutrición y Dietética</td><td style="text-align:right;font-family:'DM Mono',monospace">31</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.96%</td></tr>
+            <tr><td>Educación Primaria</td><td style="text-align:right;font-family:'DM Mono',monospace">28</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.87%</td></tr>
+            <tr><td>Preparación para el servicio</td><td style="text-align:right;font-family:'DM Mono',monospace">27</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.84%</td></tr>
+            <tr><td>Maestría en Salud Pública</td><td style="text-align:right;font-family:'DM Mono',monospace">25</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.78%</td></tr>
+            <tr><td>Enseñanza del Inglés</td><td style="text-align:right;font-family:'DM Mono',monospace">24</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.74%</td></tr>
+            <tr><td>Maestría en Relaciones familiares</td><td style="text-align:right;font-family:'DM Mono',monospace">23</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.71%</td></tr>
+            <tr><td>Ing. Industrial y de sistemas</td><td style="text-align:right;font-family:'DM Mono',monospace">20</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.62%</td></tr>
+            <tr><td>Tecnología dental</td><td style="text-align:right;font-family:'DM Mono',monospace">18</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.56%</td></tr>
+            <tr><td>Música</td><td style="text-align:right;font-family:'DM Mono',monospace">16</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.50%</td></tr>
+            <tr><td>Psicología Educativa</td><td style="text-align:right;font-family:'DM Mono',monospace">15</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.47%</td></tr>
+            <tr><td>Educación Preescolar</td><td style="text-align:right;font-family:'DM Mono',monospace">14</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.43%</td></tr>
+            <tr><td>Maestría en Gestión curricular</td><td style="text-align:right;font-family:'DM Mono',monospace">13</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.40%</td></tr>
+            <tr><td>Enseñanza de las ciencias naturales</td><td style="text-align:right;font-family:'DM Mono',monospace">12</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.37%</td></tr>
+            <tr><td>Doc. en Gestión Educativa</td><td style="text-align:right;font-family:'DM Mono',monospace">10</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.31%</td></tr>
+            <tr><td>Enseñanza del lenguaje y la comunicación</td><td style="text-align:right;font-family:'DM Mono',monospace">6</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.19%</td></tr>
+            <tr><td>Maestría en Dirección de Comunicación</td><td style="text-align:right;font-family:'DM Mono',monospace">4</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.12%</td></tr>
+            <tr><td>Curso de español para extranjeros</td><td style="text-align:right;font-family:'DM Mono',monospace">4</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.12%</td></tr>
+            <tr><td>Ing. Electrónica y Telecomunicaciones</td><td style="text-align:right;font-family:'DM Mono',monospace">3</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.09%</td></tr>
+            <tr><td>Doc. en Administración de negocios</td><td style="text-align:right;font-family:'DM Mono',monospace">3</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.09%</td></tr>
+            <tr><td>Ing. en Tecnología de la Información y Comunicación</td><td style="text-align:right;font-family:'DM Mono',monospace">2</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">0.06%</td></tr>
+            <tr><td><strong>Total general</strong></td><td style="text-align:right;font-family:'DM Mono',monospace"><strong>3222</strong></td><td style="text-align:right;font-weight:700">100.00%</td></tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
     </section>
 
     <section id="s1sem-horarios" class="sec">
@@ -1583,6 +1798,233 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--ink);font
   </div>
 
 </div><!-- /top-s1sem -->
+
+<!-- ══════════════════════════════════════════════════════════════
+     ██████  SECCIÓN 5 — VACACIONAL DE INVIERNO
+══════════════════════════════════════════════════════════════ -->
+
+<div id="top-svac" class="topsec">
+
+  <div class="shead-1">
+    <div class="shead-inner">
+      <div class="shead-eyebrow">Sección 5 · Periodo corto</div>
+      <div class="shead-title">Vacacional de Invierno</div>
+      <div class="shead-dates">5 – 31 diciembre 2025 · 108 tx en sistema · 1.5% del año</div>
+    </div>
+  </div>
+
+  <nav class="snav">
+    <div class="ni">
+      <button class="nt active" onclick="showSec('svac','resumen',this)">Resumen</button>
+      <button class="nt" onclick="showSec('svac','prestamos',this)">Préstamos</button>
+      <button class="nt" onclick="showSec('svac','renovaciones',this)">Renovaciones</button>
+      <button class="nt" onclick="showSec('svac','temas',this)">Temas y títulos</button>
+    </div>
+  </nav>
+
+  <div class="wrap">
+
+    <section id="svac-resumen" class="sec active">
+      <div class="sh"><h2>Resumen de Vacaciones de Invierno</h2><span class="stag">5 – 31 diciembre 2025</span></div>
+      <div class="callout-green">
+        <h3>El periodo más corto y de menor volumen del año</h3>
+        <p>Vacacional de invierno representa solo el <strong>1.5% de las transacciones anuales</strong> con 108 registros. A diferencia de los demás periodos, las <strong>devoluciones (102) superan a los préstamos (65)</strong> — los usuarios devuelven materiales del semestre anterior antes de pedir nuevos. Con solo <strong>30 usuarios únicos</strong>, es el periodo menos concurrido, dominado por Docentes.</p>
+      </div>
+      <div class="kstrip">
+        <div class="kc"><div class="kl">Transacciones</div><div class="kn">108</div><div class="kd">1.5% del año</div></div>
+        <div class="kc"><div class="kl">Préstamos</div><div class="kn c-pres">65</div><div class="kd">60.2% del periodo</div></div>
+        <div class="kc"><div class="kl">Renovaciones</div><div class="kn c-renov">43</div><div class="kd">39.8% del periodo</div></div>
+        <div class="kc"><div class="kl">Devoluciones</div><div class="kn c-devol">102</div><div class="kd">156.9% de préstamos</div></div>
+        <div class="kc"><div class="kl">Usuarios únicos</div><div class="kn">30</div><div class="kd">IDs distintos</div></div>
+      </div>
+      <div class="card gf">
+        <div class="cl">Desglose completo por operación</div>
+        <div class="ct">Vacacional de invierno — 5 al 31 diciembre 2025</div>
+        <table class="triple">
+          <thead><tr><th>Operación</th><th>Total</th><th>Usuarios únicos</th></tr></thead>
+          <tbody>
+            <tr><td><span class="op-dot" style="background:var(--p3)"></span><strong>Préstamos</strong></td><td><span class="mono">65</span></td><td><span class="mono">19</span></td></tr>
+            <tr><td><span class="op-dot" style="background:var(--a4)"></span><strong>Renovaciones</strong></td><td><span class="mono">43</span></td><td><span class="mono">15</span></td></tr>
+            <tr><td><span class="op-dot" style="background:var(--a2)"></span><strong>Devoluciones</strong></td><td><span class="mono">102</span></td><td>—</td></tr>
+            <tr><td><strong>Total</strong></td><td><span class="mono">108</span></td><td><strong>30</strong></td></tr>
+          </tbody>
+        </table>
+        <p style="font-size:11px;color:var(--ink3);margin-top:.6rem">De los 19 usuarios que hicieron préstamos, solo 4 también renovaron. Los 11 usuarios restantes que renovaron ya tenían un préstamo activo desde el semestre anterior (15 = 19 + 11 − 15 se traslapan).</p>
+      </div>
+    </section>
+
+    <section id="svac-prestamos" class="sec">
+      <div class="sh"><h2>Préstamos — Vacacional de Invierno</h2><span class="stag">65 préstamos · 5 – 31 dic 2025</span></div>
+      <div class="card gf">
+        <div class="cl">Préstamos por categoría</div>
+        <div class="ct">Vacaciones de invierno — 5 al 31 diciembre 2025</div>
+        <div style="max-height:480px;overflow-y:auto">
+        <table class="tt">
+          <thead><tr><th>Categoría</th><th style="text-align:right">Cantidad</th><th style="text-align:right">%</th></tr></thead>
+          <tbody>
+            <tr><td>Docentes</td><td style="text-align:right;font-family:'DM Mono',monospace">42</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">64.62%</td></tr>
+            <tr><td>Personal de Apoyo</td><td style="text-align:right;font-family:'DM Mono',monospace">11</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">16.92%</td></tr>
+            <tr><td>Alumno de Licenciatura</td><td style="text-align:right;font-family:'DM Mono',monospace">11</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">16.92%</td></tr>
+            <tr><td>Alumnos Posgrado</td><td style="text-align:right;font-family:'DM Mono',monospace">1</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">1.54%</td></tr>
+            <tr><td><strong>Total general</strong></td><td style="text-align:right;font-family:'DM Mono',monospace"><strong>65</strong></td><td style="text-align:right;font-weight:700">100.00%</td></tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+      <div class="card gf">
+        <div class="cl">Préstamos por facultad</div>
+        <div class="ct">Vacaciones de invierno — 5 al 31 diciembre 2025</div>
+        <div style="max-height:480px;overflow-y:auto">
+        <table class="tt">
+          <thead><tr><th>Facultad</th><th style="text-align:right">Cantidad</th><th style="text-align:right">%</th></tr></thead>
+          <tbody>
+            <tr><td>Ciencias de la Salud</td><td style="text-align:right;font-family:'DM Mono',monospace">25</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">38.46%</td></tr>
+            <tr><td>Personal de Apoyo</td><td style="text-align:right;font-family:'DM Mono',monospace">11</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">16.92%</td></tr>
+            <tr><td>Ciencias de Educación</td><td style="text-align:right;font-family:'DM Mono',monospace">9</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">13.85%</td></tr>
+            <tr><td>Ciencias Jurídicas</td><td style="text-align:right;font-family:'DM Mono',monospace">9</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">13.85%</td></tr>
+            <tr><td>Artes y Comunicación</td><td style="text-align:right;font-family:'DM Mono',monospace">5</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">7.69%</td></tr>
+            <tr><td>Ingeniería y Tecnología</td><td style="text-align:right;font-family:'DM Mono',monospace">5</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">7.69%</td></tr>
+            <tr><td>Teología</td><td style="text-align:right;font-family:'DM Mono',monospace">1</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">1.54%</td></tr>
+            <tr><td><strong>Total general</strong></td><td style="text-align:right;font-family:'DM Mono',monospace"><strong>65</strong></td><td style="text-align:right;font-weight:700">100.00%</td></tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+      <div class="card gf">
+        <div class="cl">Préstamos por escuela</div>
+        <div class="ct">Vacaciones de invierno — 5 al 31 diciembre 2025</div>
+        <div style="max-height:480px;overflow-y:auto">
+        <table class="tt">
+          <thead><tr><th>Escuela</th><th style="text-align:right">Cantidad</th><th style="text-align:right">%</th></tr></thead>
+          <tbody>
+            <tr><td>Personal de Apoyo</td><td style="text-align:right;font-family:'DM Mono',monospace">11</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">16.92%</td></tr>
+            <tr><td>Enfermería</td><td style="text-align:right;font-family:'DM Mono',monospace">11</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">16.92%</td></tr>
+            <tr><td>Médico Cirujano</td><td style="text-align:right;font-family:'DM Mono',monospace">9</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">13.85%</td></tr>
+            <tr><td>Administración y negocios internacionales</td><td style="text-align:right;font-family:'DM Mono',monospace">9</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">13.85%</td></tr>
+            <tr><td>Enseñanza de las Matemáticas</td><td style="text-align:right;font-family:'DM Mono',monospace">8</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">12.31%</td></tr>
+            <tr><td>Terapia Física y Rehabilitación</td><td style="text-align:right;font-family:'DM Mono',monospace">5</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">7.69%</td></tr>
+            <tr><td>Ing. Sistemas Computacionales</td><td style="text-align:right;font-family:'DM Mono',monospace">5</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">7.69%</td></tr>
+            <tr><td>Arquitectura</td><td style="text-align:right;font-family:'DM Mono',monospace">4</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">6.15%</td></tr>
+            <tr><td>Artes Visuales</td><td style="text-align:right;font-family:'DM Mono',monospace">1</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">1.54%</td></tr>
+            <tr><td>Maestría en Gestión curricular</td><td style="text-align:right;font-family:'DM Mono',monospace">1</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">1.54%</td></tr>
+            <tr><td>Teología</td><td style="text-align:right;font-family:'DM Mono',monospace">1</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">1.54%</td></tr>
+            <tr><td><strong>Total general</strong></td><td style="text-align:right;font-family:'DM Mono',monospace"><strong>65</strong></td><td style="text-align:right;font-weight:700">100.00%</td></tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="svac-renovaciones" class="sec">
+      <div class="sh"><h2>Renovaciones — Vacacional de Invierno</h2><span class="stag">43 renovaciones · 5 – 31 dic 2025</span></div>
+      <div class="card gf">
+        <div class="cl">Renovaciones por categoría</div>
+        <div class="ct">Vacaciones de invierno — 5 al 31 diciembre 2025</div>
+        <div style="max-height:480px;overflow-y:auto">
+        <table class="tt">
+          <thead><tr><th>Categoría</th><th style="text-align:right">Cantidad</th><th style="text-align:right">%</th></tr></thead>
+          <tbody>
+            <tr><td>Docentes</td><td style="text-align:right;font-family:'DM Mono',monospace">28</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">65.12%</td></tr>
+            <tr><td>Alumnos Preparatoria</td><td style="text-align:right;font-family:'DM Mono',monospace">11</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">25.58%</td></tr>
+            <tr><td>Personal de Apoyo</td><td style="text-align:right;font-family:'DM Mono',monospace">4</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">9.30%</td></tr>
+            <tr><td><strong>Total general</strong></td><td style="text-align:right;font-family:'DM Mono',monospace"><strong>43</strong></td><td style="text-align:right;font-weight:700">100.00%</td></tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+      <div class="card gf">
+        <div class="cl">Renovaciones por facultad</div>
+        <div class="ct">Vacaciones de invierno — 5 al 31 diciembre 2025</div>
+        <div style="max-height:480px;overflow-y:auto">
+        <table class="tt">
+          <thead><tr><th>Facultad</th><th style="text-align:right">Cantidad</th><th style="text-align:right">%</th></tr></thead>
+          <tbody>
+            <tr><td>Ciencias de la Salud</td><td style="text-align:right;font-family:'DM Mono',monospace">14</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">32.56%</td></tr>
+            <tr><td>Preparatoria</td><td style="text-align:right;font-family:'DM Mono',monospace">11</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">25.58%</td></tr>
+            <tr><td>Ciencias Jurídicas</td><td style="text-align:right;font-family:'DM Mono',monospace">8</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">18.60%</td></tr>
+            <tr><td>Personal de Apoyo</td><td style="text-align:right;font-family:'DM Mono',monospace">4</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">9.30%</td></tr>
+            <tr><td>Ingeniería y Tecnología</td><td style="text-align:right;font-family:'DM Mono',monospace">3</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">6.98%</td></tr>
+            <tr><td>Ciencias de Educación</td><td style="text-align:right;font-family:'DM Mono',monospace">2</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">4.65%</td></tr>
+            <tr><td>Artes y Comunicación</td><td style="text-align:right;font-family:'DM Mono',monospace">1</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">2.33%</td></tr>
+            <tr><td><strong>Total general</strong></td><td style="text-align:right;font-family:'DM Mono',monospace"><strong>43</strong></td><td style="text-align:right;font-weight:700">100.00%</td></tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+      <div class="card gf">
+        <div class="cl">Renovaciones por escuela</div>
+        <div class="ct">Vacaciones de invierno — 5 al 31 diciembre 2025</div>
+        <div style="max-height:480px;overflow-y:auto">
+        <table class="tt">
+          <thead><tr><th>Escuela</th><th style="text-align:right">Cantidad</th><th style="text-align:right">%</th></tr></thead>
+          <tbody>
+            <tr><td>Preparatoria</td><td style="text-align:right;font-family:'DM Mono',monospace">11</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">25.58%</td></tr>
+            <tr><td>Enfermería</td><td style="text-align:right;font-family:'DM Mono',monospace">8</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">18.60%</td></tr>
+            <tr><td>Contaduría Pública</td><td style="text-align:right;font-family:'DM Mono',monospace">6</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">13.95%</td></tr>
+            <tr><td>Personal de Apoyo</td><td style="text-align:right;font-family:'DM Mono',monospace">4</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">9.30%</td></tr>
+            <tr><td>Terapia Física y Rehabilitación</td><td style="text-align:right;font-family:'DM Mono',monospace">4</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">9.30%</td></tr>
+            <tr><td>Ing. Sistemas Computacionales</td><td style="text-align:right;font-family:'DM Mono',monospace">3</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">6.98%</td></tr>
+            <tr><td>Doc. en Administración de negocios</td><td style="text-align:right;font-family:'DM Mono',monospace">2</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">4.65%</td></tr>
+            <tr><td>Educación Preescolar</td><td style="text-align:right;font-family:'DM Mono',monospace">2</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">4.65%</td></tr>
+            <tr><td>Mtria. en Salud Pública</td><td style="text-align:right;font-family:'DM Mono',monospace">2</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">4.65%</td></tr>
+            <tr><td>Diseño de Comunicación Visual</td><td style="text-align:right;font-family:'DM Mono',monospace">1</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">2.33%</td></tr>
+            <tr><td><strong>Total general</strong></td><td style="text-align:right;font-family:'DM Mono',monospace"><strong>43</strong></td><td style="text-align:right;font-weight:700">100.00%</td></tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="svac-temas" class="sec">
+      <div class="sh"><h2>Temas y títulos — Vacacional de Invierno</h2><span class="stag">Préstamos + renovaciones combinados</span></div>
+      <div class="g2">
+        <div class="card gf">
+        <div class="cl">Temas con más préstamos y renovaciones</div>
+        <div class="ct">Vacaciones de invierno — 5 al 31 diciembre 2025 · Top 10, no exhaustivo</div>
+        <div style="max-height:480px;overflow-y:auto">
+        <table class="tt">
+          <thead><tr><th>Tema</th><th style="text-align:right">Cantidad</th><th style="text-align:right">%</th></tr></thead>
+          <tbody>
+            <tr><td>Administración y contabilidad</td><td style="text-align:right;font-family:'DM Mono',monospace">21</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">19.44%</td></tr>
+            <tr><td>Medicina</td><td style="text-align:right;font-family:'DM Mono',monospace">9</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">8.33%</td></tr>
+            <tr><td>Anatomía humana</td><td style="text-align:right;font-family:'DM Mono',monospace">7</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">6.48%</td></tr>
+            <tr><td>Ingeniería y agricultura</td><td style="text-align:right;font-family:'DM Mono',monospace">7</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">6.48%</td></tr>
+            <tr><td>Religión</td><td style="text-align:right;font-family:'DM Mono',monospace">7</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">6.48%</td></tr>
+            <tr><td>Psicología</td><td style="text-align:right;font-family:'DM Mono',monospace">6</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">5.56%</td></tr>
+            <tr><td>Enfermería</td><td style="text-align:right;font-family:'DM Mono',monospace">5</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">4.63%</td></tr>
+            <tr><td>Matemáticas</td><td style="text-align:right;font-family:'DM Mono',monospace">5</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">4.63%</td></tr>
+            <tr><td>Arquitectura</td><td style="text-align:right;font-family:'DM Mono',monospace">4</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">3.70%</td></tr>
+            <tr><td>Ciencias sociales</td><td style="text-align:right;font-family:'DM Mono',monospace">4</td><td style="text-align:right;font-family:'Playfair Display',serif;font-weight:700">3.70%</td></tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+        <div class="card gf">
+        <div class="cl">Títulos con más préstamos y renovaciones</div>
+        <div class="ct">Vacaciones de invierno — 5 al 31 diciembre 2025</div>
+        <table class="tt">
+          <thead><tr><th>Título</th><th style="text-align:right">Préstamos + Renovaciones</th></tr></thead>
+          <tbody>
+            <tr><td>Cómo leer iglesias</td><td style="text-align:right;font-family:'DM Mono',monospace;font-weight:700">3</td></tr>
+            <tr><td>Netter. Atlas de anatomía humana</td><td style="text-align:right;font-family:'DM Mono',monospace;font-weight:700">3</td></tr>
+            <tr><td>Moore anatomía con orientación clínica</td><td style="text-align:right;font-family:'DM Mono',monospace;font-weight:700">3</td></tr>
+            <tr><td>Manual Washington de especialidades clínicas</td><td style="text-align:right;font-family:'DM Mono',monospace;font-weight:700">3</td></tr>
+            <tr><td>Fisiología humana</td><td style="text-align:right;font-family:'DM Mono',monospace;font-weight:700">2</td></tr>
+            <tr><td>Céntrate (Deep Work)</td><td style="text-align:right;font-family:'DM Mono',monospace;font-weight:700">2</td></tr>
+            <tr><td>NANDA International: diagnósticos enfermeros</td><td style="text-align:right;font-family:'DM Mono',monospace;font-weight:700">2</td></tr>
+            <tr><td>Fundamentos de ergonomía</td><td style="text-align:right;font-family:'DM Mono',monospace;font-weight:700">2</td></tr>
+            <tr><td>Bioestadística amigable</td><td style="text-align:right;font-family:'DM Mono',monospace;font-weight:700">2</td></tr>
+            <tr><td>Análisis y diseño de circuitos electrónicos</td><td style="text-align:right;font-family:'DM Mono',monospace;font-weight:700">2</td></tr>
+          </tbody>
+        </table>
+      </div>
+      </div>
+    </section>
+
+  </div>
+
+</div><!-- /top-svac -->
+
 
 <script>
 
