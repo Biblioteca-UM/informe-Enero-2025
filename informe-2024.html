@@ -149,7 +149,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--ink);font
     <div class="kpi-sub">Registradas en el semestre</div>
   </div>
 </div>
-<p class="kpi-footnote">Las cifras de <strong>préstamos y renovaciones (P+R)</strong> se reportan de forma conjunta en las tablas de este informe, tal como en el documento original.</p>
+<p class="kpi-footnote">Las cifras de <strong>préstamos y renovaciones (P+R)</strong> se reportan de forma conjunta en las tablas de este informe.</p>
 
   </div>
 </section>
@@ -658,7 +658,7 @@ new Chart(document.getElementById('chartUsEscuela'), {
 new Chart(document.getElementById('chartActivos'), {
   type:'doughnut',
   data:{labels:['Realizaron préstamo','No realizaron préstamo'], datasets:[{data:[26.42, 73.58], backgroundColor:['#9b7e45','#e4ddc9'], borderWidth:0}]},
-  options:{plugins:{legend:{position:'bottom', labels:{color:'#f4f1ea', font:{family:"'DM Sans',sans-serif", size:12}}}, tooltip:{callbacks:{label:(ctx)=> ctx.label+': '+ctx.raw+'%' }}}, cutout:'68%'}
+  options:{plugins:{legend:{position:'bottom', labels:{color:'#2b1e1a', font:{family:"'DM Sans',sans-serif", size:12}}}, tooltip:{callbacks:{label:(ctx)=> ctx.label+': '+ctx.raw+'%' }}}, cutout:'68%'}
 });
 
 new Chart(document.getElementById('chartPromTipo'), {
