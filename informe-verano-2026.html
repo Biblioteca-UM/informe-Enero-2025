@@ -216,7 +216,7 @@ footer p{max-width:80ch;margin:6px 0}
   <figure class="ops"><div class="mono" style="color:var(--muted);font-size:10.5px">Desglose completo por operación</div>
     <h3 style="margin-top:6px;font-size:22px">Verano — 18 mayo al 8 agosto 2026</h3>
     <div class="tw" style="border:0;background:none;margin-top:10px"><table id="tOps"></table></div>
-    <p class="muted" style="font-size:13px;margin:10px 0 0;max-width:90ch">7 usuarios solo realizaron renovaciones en el periodo, por eso usuarios de préstamos (146) + 7 = 153 totales. *Usuarios únicos de devoluciones del periodo: 153.</p></figure>
+    <p class="muted" style="font-size:13px;margin:10px 0 0;max-width:90ch">Devoluciones: 7 usuarios solicitarón el préstamo antes del verano y renovaron en el periodo, por eso (146) + 7 = 153 totales. *Los usuarios únicos de préstamos y de devoluciones no coinciden debido a que cada operación se procesó en fechas distintas. Algunas personas devolvieron antes del periodo y otros depués.</p></figure>
   <p class="note" style="max-width:none"><b>Días atendidos.</b> Los préstamos y las devoluciones se hacen en la biblioteca, así que se atendieron 69 días, que se adaptan al horario de apertura y pueden variar en vacaciones, verano e invierno. Las renovaciones se pueden hacer las 24 horas por el OPAC, sin acudir a la biblioteca y también en festivos. Se atendieron 83 días del periodo, que son todos los días naturales del 18 de mayo al 8 de agosto.</p>
 
   <figure style="margin-top:18px;text-align:center"><div class="mono" style="color:var(--muted);font-size:10.5px">Composición del periodo</div>
@@ -244,9 +244,9 @@ footer p{max-width:80ch;margin:6px 0}
   <p class="note warn"><b>Muestras pequeñas.</b> Las categorías con pocos usuarios son: carreras técnicas (1 usuario) y usuarios temporales (2). Preparatoria tiene 5 usuarios y 43 préstamos y renovaciones.</p>
   <div class="grid g2">
     <figure><h3>Hábitos de extensión de préstamo bibliotecario por tipo de usuario</h3><div class="cv"><canvas id="cRatio" role="img" aria-label="Renovaciones por préstamo según categoría"></canvas></div>
-      <figcaption>Personal de Apoyo: de cada 10 libros que se llevan, renuevan 7 (68 renovaciones por cada 100 libros). Docentes: de cada 10 libros que se llevan, renuevan 4 (44 renovaciones por cada 100 libros). Alumno de Licenciatura: de cada 10 libros que se llevan, renuevan 1 (11 renovaciones por cada 100 libros). Alumnos Posgrado: casi no renuevan (2 renovaciones por cada 100 libros).</figcaption></figure>
+      <figcaption>Personal de Apoyo: de cada 10 libros que se llevan, renuevan 7. Docentes: de cada 10 libros que se llevan, renuevan 4.Alumnos Posgrado: casi no renuevan (2 renovaciones por cada 100 libros).</figcaption></figure>
     <figure><h3>Cuántas veces se renovó cada préstamo</h3><div class="cv"><canvas id="cDepth" role="img" aria-label="Número de renovaciones por préstamo"></canvas></div>
-      <figcaption>De 607 es la cantidad de combinaciones únicas entre un usuario específico y un libro específico. En la barra más alta, los libros se devolvieron en la fecha inicial, sin pedir prórroga (525). En 60 préstamos los usuarios solicitaron extensión una sola vez; 2, 3 o 4+ renovaciones suman 22. Sumando los de 1, 2, 3 y 4+ renovaciones = 82, es decir que el 13.5 % renovaron al menos una vez. Hay además 52 combinaciones usuario-libro con renovación pero sin préstamo en el periodo.</figcaption></figure>
+      <figcaption>En la barra más alta, los libros se devolvieron en la fecha inicial, sin pedir prórroga (525). En la segund abarra 60 préstamos los usuarios solicitaron extensión una sola vez; Al sumar las barras de 2, 3 o 4+ renovaciones suman 22. Pero al sumar las barras de 1, 2, 3 y 4+ renovaciones = 82, es decir que el 13.5 % renovaron al menos una vez.</figcaption></figure>
     <figure><h3>Cuántos préstamos y renovaciones realizó cada usuario</h3><div class="cv"><canvas id="cUsers" role="img" aria-label="Usuarios por número de movimientos"></canvas></div>
       <figcaption>Mediana 4 movimientos (P+R), media 6.3, máximo 52. 28 usuarios (18.3 %) solo hicieron uno.</figcaption></figure>
     <figure><h3>Concentración</h3><div class="cv short"><canvas id="cConc" role="img" aria-label="Participación de los usuarios más activos"></canvas></div>
@@ -254,7 +254,7 @@ footer p{max-width:80ch;margin:6px 0}
   </div>
 
   <div class="mono lab">Usuarios únicos que devolvieron · 18 de mayo – 8 de agosto de 2026</div>
-  <h2>Usuarios únicos de devoluciones por categoría y facultad</h2>
+  <h2>Devoluciones: Usuarios únicos por categoría y facultad</h2>
   <p class="intro">En el periodo de verano, 153 usuarios únicos realizaron devoluciones. La mayoría son alumnos de licenciatura (52) y de posgrado (43); por facultad, Teología (43) y Ciencias de la Salud (32) concentran la mayor parte.</p>
   <div class="grid g2">
     <figure><h3>Usuarios que devolvieron, por categoría</h3><div class="tw" style="margin-top:12px;border:0"><table id="tDevCat"></table></div></figure>
@@ -299,7 +299,7 @@ footer p{max-width:80ch;margin:6px 0}
   <div class="tw"><table id="tFac"></table></div>
   <div class="mono lab">Escuelas o programas (15 mayores)</div>
   <div class="tw"><table id="tEsc"></table></div>
-  <p class="note"><b>Análisis.</b> Entre las facultades con 30 préstamos o más, Teología renueva poco (0.02 renovaciones por préstamo) y Personal de Apoyo renueva más (0.68). Las facultades con pocos usuarios no sostienen comparaciones de tasa.</p>
+  <p class="note"><b>Análisis.</b> Entre las facultades con 30 préstamos o más, Teología renueva poco (Por cada 10 libros prestados, no se renueva ni 1 libro; en promedio, apenas se renuevan 2 de cada 100) y Personal de Apoyo renueva más (Por cada 10 libros prestados, se realizan casi 7 renovaciones).</p>
 </div></div>
 
 <!-- ================= HORARIOS ================= -->
@@ -309,7 +309,7 @@ footer p{max-width:80ch;margin:6px 0}
   <p class="intro">El 8 de julio fue el día con más préstamos (30), empatado con el 15 de junio (30). Los picos de hora son las 18:00 y las 17:00.</p>
   <div class="heatbox">
     <h3 style="font-size:20px">Cuándo se mueve la colección</h3>
-    <p class="muted" style="font-size:14px;margin:4px 0 14px;max-width:72ch">Préstamos y renovaciones juntos, por día y hora. La biblioteca no abre los sábados y los viernes cierra a las 13:15; lo que aparece en esas casillas son sobre todo renovaciones por el OPAC.</p>
+    <p class="muted" style="font-size:14px;margin:4px 0 14px;max-width:72ch">Préstamos y renovaciones juntos, por día y hora. La biblioteca no abre los sábados; lo que aparece en esas casillas son sobre todo renovaciones por el OPAC.</p>
     <div class="heatscroll"><div class="heat" id="heat" role="img" aria-label="Mapa de calor de movimientos por día y hora"></div></div>
     <div class="legend"><span>0</span><i></i><span id="heatmax"></span></div>
   </div>
@@ -358,7 +358,7 @@ document.getElementById('kstrip').innerHTML = [
 ].map(k=>`<div class="${k[3]}"><span class="mono">${k[0]}</span><b>${k[1]}</b><span class="s">${k[2]}</span></div>`).join('');
 
 /* ---------- Hallazgos ---------- */
-const F=[["Junio y julio concentran casi nueve de cada diez préstamos", "695 de 791 préstamos (87.9 %) se hicieron en junio y julio. Las renovaciones llegan después: 17 en mayo, 72 en junio."], ["La tarde es la hora fuerte", "Las 18:00 concentran 101 préstamos y las 17:00, 89. Los sábados no abre la biblioteca y los viernes cierra a las 13:00; el domingo se atiende de 10:00 a 20:59."], ["Posgrado sostiene el verano", "Posgrado: 34.8 % de los movimientos con 44 usuarios y 0.02 renovaciones por préstamo. Personal de apoyo: 0.68."], ["Pocas personas, mucha circulación", "El 20 % de los usuarios (30) genera el 51.6 % de los movimientos; 28 usuarios (18.3 %) hicieron uno solo."], ["Religión domina la colección que circula", "Religión y Colección Infantil concentran el 34.7 % de los movimientos (334 de 962). Mediana de año de publicación: 2017; el 31.6 % es de 2021 en adelante."]];
+const F=[["Junio y julio concentran casi nueve de cada diez préstamos", "695 de 791 préstamos (87.9 %) se hicieron en junio y julio. Las renovaciones llegan después: 17 en mayo, 72 en junio."], ["La tarde es la hora fuerte", "Las 18:00 concentran 101 préstamos y las 17:00, 89."], ["Posgrado sostiene el verano", "Posgrado: 34.8 % de los movimientos con 44 usuarios y por cada 10 préstamos, no se renueva ni 1 solo material (en promedio, apenas ocurren 2 renovaciones por cada 100 préstamos). Personal de apoyo: Por cada 10 préstamos, se realizan casi 7 renovaciones"], ["Pocas personas, mucha circulación", "El 20 % de los usuarios (30) genera el 51.6 % de los movimientos; 28 usuarios (18.3 %) hicieron uno solo."], ["Religión domina la colección que circula", "Religión y Colección Infantil concentran el 34.7 % de los movimientos (334 de 962). Mediana de año de publicación: 2017; el 31.6 % es de 2021 en adelante."]];
 document.getElementById('finds').innerHTML=F.map(f=>`<li><strong>${f[0]}</strong><span>${f[1]}</span></li>`).join('');
 
 /* ---------- Tablas ---------- */
